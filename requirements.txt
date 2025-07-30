@@ -1,0 +1,8 @@
+!pip install ultralytics gradio opencv-python-headless scipy --quiet
+
+from ultralytics import YOLO
+import gradio as gr
+import cv2
+import numpy as np
+from scipy.io.wavfile import write
+from IPython.display import Audio, display
