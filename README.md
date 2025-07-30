@@ -56,7 +56,7 @@ from IPython.display import Audio, display
 To detect dents in an image, simply run:
 
 ```bash
-python 🚗__car_dent_detector. --source path/to/your/image.jpg
+main.py --source path/to/your/image.jpg
 ```
 
 The output image with detected dents will be saved in the `runs/` folder.
