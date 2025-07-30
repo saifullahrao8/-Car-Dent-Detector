@@ -1,6 +1,3 @@
-# -Car-Dent-Detector
-A smart tool that scans car photos to find dents. It points out the damaged areas and tells you what kind of dent it is making car checks faster and easier for owners, repair shops, and insurance teams.
-
 # 🚗 Car Dent Detector
 
 An AI-powered tool that detects and classifies dents on car images using computer vision. It automatically highlights damaged areas with bounding boxes and labels the dent type — streamlining vehicle inspections for car owners, mechanics, and insurance companies.
@@ -42,6 +39,7 @@ Make sure `best.pt` is now in the root directory or in the correct model path us
 
 Ensure you have Python 3.8+ and install the required packages:
 
+```bash
 !pip install ultralytics gradio opencv-python-headless scipy --quiet
 
 from ultralytics import YOLO
@@ -50,7 +48,7 @@ import cv2
 import numpy as np
 from scipy.io.wavfile import write
 from IPython.display import Audio, display
-
+```
 
 
 ### 4. Run the Main Script
